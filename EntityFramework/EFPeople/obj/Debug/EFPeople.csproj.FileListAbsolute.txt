@@ -9,3 +9,14 @@ D:\TP\12-VB.NetAndC#.Net\EntityFramework\EFPeople\obj\Debug\EFPeople.csprojResol
 D:\TP\12-VB.NetAndC#.Net\EntityFramework\EFPeople\obj\Debug\EFPeople.csproj.CoreCompileInputs.cache
 D:\TP\12-VB.NetAndC#.Net\EntityFramework\EFPeople\obj\Debug\EFPeople.exe
 D:\TP\12-VB.NetAndC#.Net\EntityFramework\EFPeople\obj\Debug\EFPeople.pdb
+C:\Users\Minh\Documents\TUNG\JAC\JAC Docs\12-VB.NetAndC#.Net\VB.NetAndCSharp.Net\EntityFramework\EFPeople\bin\Debug\EFPeople.exe.config
+C:\Users\Minh\Documents\TUNG\JAC\JAC Docs\12-VB.NetAndC#.Net\VB.NetAndCSharp.Net\EntityFramework\EFPeople\bin\Debug\EFPeople.exe
+C:\Users\Minh\Documents\TUNG\JAC\JAC Docs\12-VB.NetAndC#.Net\VB.NetAndCSharp.Net\EntityFramework\EFPeople\bin\Debug\EFPeople.pdb
+C:\Users\Minh\Documents\TUNG\JAC\JAC Docs\12-VB.NetAndC#.Net\VB.NetAndCSharp.Net\EntityFramework\EFPeople\bin\Debug\EntityFramework.dll
+C:\Users\Minh\Documents\TUNG\JAC\JAC Docs\12-VB.NetAndC#.Net\VB.NetAndCSharp.Net\EntityFramework\EFPeople\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Minh\Documents\TUNG\JAC\JAC Docs\12-VB.NetAndC#.Net\VB.NetAndCSharp.Net\EntityFramework\EFPeople\bin\Debug\EntityFramework.xml
+C:\Users\Minh\Documents\TUNG\JAC\JAC Docs\12-VB.NetAndC#.Net\VB.NetAndCSharp.Net\EntityFramework\EFPeople\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Minh\Documents\TUNG\JAC\JAC Docs\12-VB.NetAndC#.Net\VB.NetAndCSharp.Net\EntityFramework\EFPeople\obj\Debug\EFPeople.csprojResolveAssemblyReference.cache
+C:\Users\Minh\Documents\TUNG\JAC\JAC Docs\12-VB.NetAndC#.Net\VB.NetAndCSharp.Net\EntityFramework\EFPeople\obj\Debug\EFPeople.csproj.CoreCompileInputs.cache
+C:\Users\Minh\Documents\TUNG\JAC\JAC Docs\12-VB.NetAndC#.Net\VB.NetAndCSharp.Net\EntityFramework\EFPeople\obj\Debug\EFPeople.exe
+C:\Users\Minh\Documents\TUNG\JAC\JAC Docs\12-VB.NetAndC#.Net\VB.NetAndCSharp.Net\EntityFramework\EFPeople\obj\Debug\EFPeople.pdb

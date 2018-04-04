@@ -9,3 +9,14 @@ D:\TP\12-VB.NetAndC#.Net\EntityFramework\CodeFirstSample\obj\Debug\CodeFirstSamp
 D:\TP\12-VB.NetAndC#.Net\EntityFramework\CodeFirstSample\obj\Debug\CodeFirstSample.csproj.CoreCompileInputs.cache
 D:\TP\12-VB.NetAndC#.Net\EntityFramework\CodeFirstSample\obj\Debug\CodeFirstSample.exe
 D:\TP\12-VB.NetAndC#.Net\EntityFramework\CodeFirstSample\obj\Debug\CodeFirstSample.pdb
+C:\Users\Minh\Documents\TUNG\JAC\JAC Docs\12-VB.NetAndC#.Net\VB.NetAndCSharp.Net\EntityFramework\CodeFirstExample\CodeFirstSample\obj\Debug\CodeFirstSample.csprojResolveAssemblyReference.cache
+C:\Users\Minh\Documents\TUNG\JAC\JAC Docs\12-VB.NetAndC#.Net\VB.NetAndCSharp.Net\EntityFramework\CodeFirstExample\CodeFirstSample\obj\Debug\CodeFirstSample.csproj.CoreCompileInputs.cache
+C:\Users\Minh\Documents\TUNG\JAC\JAC Docs\12-VB.NetAndC#.Net\VB.NetAndCSharp.Net\EntityFramework\CodeFirstExample\CodeFirstSample\bin\Debug\CodeFirstSample.exe.config
+C:\Users\Minh\Documents\TUNG\JAC\JAC Docs\12-VB.NetAndC#.Net\VB.NetAndCSharp.Net\EntityFramework\CodeFirstExample\CodeFirstSample\bin\Debug\CodeFirstSample.exe
+C:\Users\Minh\Documents\TUNG\JAC\JAC Docs\12-VB.NetAndC#.Net\VB.NetAndCSharp.Net\EntityFramework\CodeFirstExample\CodeFirstSample\bin\Debug\CodeFirstSample.pdb
+C:\Users\Minh\Documents\TUNG\JAC\JAC Docs\12-VB.NetAndC#.Net\VB.NetAndCSharp.Net\EntityFramework\CodeFirstExample\CodeFirstSample\bin\Debug\EntityFramework.dll
+C:\Users\Minh\Documents\TUNG\JAC\JAC Docs\12-VB.NetAndC#.Net\VB.NetAndCSharp.Net\EntityFramework\CodeFirstExample\CodeFirstSample\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Minh\Documents\TUNG\JAC\JAC Docs\12-VB.NetAndC#.Net\VB.NetAndCSharp.Net\EntityFramework\CodeFirstExample\CodeFirstSample\bin\Debug\EntityFramework.xml
+C:\Users\Minh\Documents\TUNG\JAC\JAC Docs\12-VB.NetAndC#.Net\VB.NetAndCSharp.Net\EntityFramework\CodeFirstExample\CodeFirstSample\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Minh\Documents\TUNG\JAC\JAC Docs\12-VB.NetAndC#.Net\VB.NetAndCSharp.Net\EntityFramework\CodeFirstExample\CodeFirstSample\obj\Debug\CodeFirstSample.exe
+C:\Users\Minh\Documents\TUNG\JAC\JAC Docs\12-VB.NetAndC#.Net\VB.NetAndCSharp.Net\EntityFramework\CodeFirstExample\CodeFirstSample\obj\Debug\CodeFirstSample.pdb

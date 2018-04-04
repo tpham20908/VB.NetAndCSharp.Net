@@ -9,10 +9,12 @@ namespace EFPeople
 {
     class PeopleDbContext : DbContext
     {
+        /*
         public PeopleDbContext() : base("name=EFPeopleDatabase")
         {
 
         }
+        */
         public virtual DbSet<Person> People { get; set; }
     }
 }
