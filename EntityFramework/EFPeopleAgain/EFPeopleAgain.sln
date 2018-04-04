@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFPeopleAgain", "EFPeopleAgain.csproj", "{50335271-3103-4D80-9832-F71C2353758B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50335271-3103-4D80-9832-F71C2353758B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50335271-3103-4D80-9832-F71C2353758B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50335271-3103-4D80-9832-F71C2353758B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50335271-3103-4D80-9832-F71C2353758B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E3E5493-5A6B-4273-BBFC-524E5B66C0C8}
+	EndGlobalSection
+EndGlobal
