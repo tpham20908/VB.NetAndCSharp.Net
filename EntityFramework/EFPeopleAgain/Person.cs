@@ -21,7 +21,7 @@ namespace EFPeopleAgain
         [Required]
         public double Height { get; set; }
 
-        public string ToString()
+        public override string ToString()
         {
             return string.Format("Person #{0}: Name {1}, Age {2}, Height {3:0.00}", Id, Name, Age, Height);
         }
