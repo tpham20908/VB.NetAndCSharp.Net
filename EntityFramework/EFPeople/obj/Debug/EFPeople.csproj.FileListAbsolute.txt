@@ -1,0 +1,11 @@
+D:\TP\12-VB.NetAndC#.Net\EntityFramework\EFPeople\bin\Debug\EFPeople.exe.config
+D:\TP\12-VB.NetAndC#.Net\EntityFramework\EFPeople\bin\Debug\EFPeople.exe
+D:\TP\12-VB.NetAndC#.Net\EntityFramework\EFPeople\bin\Debug\EFPeople.pdb
+D:\TP\12-VB.NetAndC#.Net\EntityFramework\EFPeople\bin\Debug\EntityFramework.dll
+D:\TP\12-VB.NetAndC#.Net\EntityFramework\EFPeople\bin\Debug\EntityFramework.SqlServer.dll
+D:\TP\12-VB.NetAndC#.Net\EntityFramework\EFPeople\bin\Debug\EntityFramework.xml
+D:\TP\12-VB.NetAndC#.Net\EntityFramework\EFPeople\bin\Debug\EntityFramework.SqlServer.xml
+D:\TP\12-VB.NetAndC#.Net\EntityFramework\EFPeople\obj\Debug\EFPeople.csprojResolveAssemblyReference.cache
+D:\TP\12-VB.NetAndC#.Net\EntityFramework\EFPeople\obj\Debug\EFPeople.csproj.CoreCompileInputs.cache
+D:\TP\12-VB.NetAndC#.Net\EntityFramework\EFPeople\obj\Debug\EFPeople.exe
+D:\TP\12-VB.NetAndC#.Net\EntityFramework\EFPeople\obj\Debug\EFPeople.pdb

@@ -1,0 +1,11 @@
+D:\TP\12-VB.NetAndC#.Net\EntityFramework\CodeFirstSample\bin\Debug\CodeFirstSample.exe.config
+D:\TP\12-VB.NetAndC#.Net\EntityFramework\CodeFirstSample\bin\Debug\CodeFirstSample.exe
+D:\TP\12-VB.NetAndC#.Net\EntityFramework\CodeFirstSample\bin\Debug\CodeFirstSample.pdb
+D:\TP\12-VB.NetAndC#.Net\EntityFramework\CodeFirstSample\bin\Debug\EntityFramework.dll
+D:\TP\12-VB.NetAndC#.Net\EntityFramework\CodeFirstSample\bin\Debug\EntityFramework.SqlServer.dll
+D:\TP\12-VB.NetAndC#.Net\EntityFramework\CodeFirstSample\bin\Debug\EntityFramework.xml
+D:\TP\12-VB.NetAndC#.Net\EntityFramework\CodeFirstSample\bin\Debug\EntityFramework.SqlServer.xml
+D:\TP\12-VB.NetAndC#.Net\EntityFramework\CodeFirstSample\obj\Debug\CodeFirstSample.csprojResolveAssemblyReference.cache
+D:\TP\12-VB.NetAndC#.Net\EntityFramework\CodeFirstSample\obj\Debug\CodeFirstSample.csproj.CoreCompileInputs.cache
+D:\TP\12-VB.NetAndC#.Net\EntityFramework\CodeFirstSample\obj\Debug\CodeFirstSample.exe
+D:\TP\12-VB.NetAndC#.Net\EntityFramework\CodeFirstSample\obj\Debug\CodeFirstSample.pdb
