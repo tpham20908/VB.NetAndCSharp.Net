@@ -14,7 +14,7 @@
     <Label Name="lblId" Content="..." HorizontalAlignment="Left" Margin="365,24,0,0" VerticalAlignment="Top" />
     <TextBox Name="tbName" HorizontalAlignment="Left" Height="23" Margin="365,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="144" />
     <TextBox Name="tbAge" HorizontalAlignment="Left" Height="23" Margin="365,112,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="144" />
-    <Button Name="btnAdd"  Content="Add" HorizontalAlignment="Left" Margin="314,207,0,0" VerticalAlignment="Top" Width="75" />
+    <Button Name="btnAdd" Click="btnAdd_Click" Content="Add" HorizontalAlignment="Left" Margin="314,207,0,0" VerticalAlignment="Top" Width="75" />
     <Button Name="btnUpdate" Content="Update" HorizontalAlignment="Left" Margin="434,207,0,0" VerticalAlignment="Top" Width="75" />
     <Slider x:Name="slHeight" HorizontalAlignment="Left" Margin="365,151,0,0" VerticalAlignment="Top" Width="144" Minimum="30" Maximum="300" TickFrequency="20" TickPlacement="Both" Height="38" />
     <Label x:Name="label" Content="Height:" HorizontalAlignment="Left" Margin="314,151,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.021,-0.01" />

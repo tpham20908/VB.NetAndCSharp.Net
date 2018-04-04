@@ -20,10 +20,38 @@ namespace EFPeopleAgain
     /// </summary>
     public partial class MainWindow : Window
     {
+        PeopleDbContext ctx = new PeopleDbContext();
         public MainWindow()
         {
-            PeopleDbContext ctx = new PeopleDbContext();
             InitializeComponent();
+            RefreshPeopleList();
+        }
+
+        private void RefreshPeopleList()
+        {
+            List<string> peopleList = new List<string>();
+            var people = (from p in ctx.People select p).ToList();
+            foreach (Person p in people)
+            {
+                peopleList.Add(p.ToString());
+            }
+            lbPeople.ItemsSource = peopleList;
+        }
+
+        private void btnAdd_Click(object sender, RoutedEventArgs e)
+        {
+            string name = tbName.Text;
+            int age = int.Parse(tbAge.Text);
+            double height = slHeight.Value;
+
+            Person p = new Person() { Name = name, Age = age, Height = height };
+            using (ctx)
+            {
+                ctx.People.Add(p);
+                ctx.SaveChanges();
+            }
+
+            RefreshPeopleList();
         }
     }
 }
