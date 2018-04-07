@@ -15,10 +15,13 @@ namespace EFPeopleAgain
         public int Id { get; set; }
         [MaxLength(50)]
         [Required]
+        [Column("NameOfPerson")]
         public string Name { get; set; }
         [Required]
+        [Column("AgeOfPerson")]
         public int Age { get; set; }
         [Required]
+        [Column("HeightOfPerson")]
         public double Height { get; set; }
 
         public override string ToString()
