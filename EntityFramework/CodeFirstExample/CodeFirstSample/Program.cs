@@ -51,7 +51,7 @@ namespace CodeFirstSample
         public int PostId { get; set; }
         public string Title { get; set; }
         public string Content { get; set; }
-
+        // Foreign key will be added here
         public int BlogId { get; set; }
         public virtual Blog Blog { get; set; }
     }
