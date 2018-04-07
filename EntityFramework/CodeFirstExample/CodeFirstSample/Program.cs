@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Data.Entity;
 using System.Linq;
 using System.Text;
@@ -40,7 +41,9 @@ namespace CodeFirstSample
 
     public class Blog
     {
+        [Key]
         public int BlogId { get; set; }
+        [MaxLength(50)]
         public string Name { get; set; }
 
         public virtual List<Post> Posts { get; set; }
@@ -48,6 +51,7 @@ namespace CodeFirstSample
 
     public class Post
     {
+        [Key]
         public int PostId { get; set; }
         public string Title { get; set; }
         public string Content { get; set; }
