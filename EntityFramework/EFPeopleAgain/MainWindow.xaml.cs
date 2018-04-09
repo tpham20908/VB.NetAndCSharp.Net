@@ -20,9 +20,10 @@ namespace EFPeopleAgain
     /// </summary>
     public partial class MainWindow : Window
     {
-        PeopleDbContext ctx = new PeopleDbContext();
+        PeopleDbContext ctx;
         public MainWindow()
         {
+            ctx = new PeopleDbContext();
             InitializeComponent();
             RefreshPeopleList();
         }

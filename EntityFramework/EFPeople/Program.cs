@@ -18,13 +18,13 @@ namespace EFPeople
 
             using (PeopleDbContext ctx = new PeopleDbContext())
             {
-                /*
+                
                 ctx.People.Add(p1);  // persist - schedule Person to be inserted into databse table
                 ctx.People.Add(p2);
                 ctx.People.Add(p3);
                 
                 Console.WriteLine("Person persitsted");
-                */
+                
 
                 // update (select then update)
                 var people2 = (from r in ctx.People where r.PersonId >= 7 select r).ToList();
@@ -79,7 +79,7 @@ namespace EFPeople
                 {
                     Console.WriteLine("P{0}: Name {1}, Age {2}", pp.PersonId, pp.Name, pp.Age);
                 }
-                //ctx.SaveChanges();  // flush - force all scheduled operations to be carried out in database
+                ctx.SaveChanges();  // flush - force all scheduled operations to be carried out in database
                 Console.ReadLine();
             }
         }
