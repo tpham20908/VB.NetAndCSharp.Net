@@ -1,0 +1,31 @@
+﻿<Window x:Class="Flight.DlgAddEdit"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Flight"
+        mc:Ignorable="d"
+        Title="DlgAddEdit" Height="415.384" Width="355.87" WindowStartupLocation="CenterScreen">
+  <Grid>
+    <Label Content="Id" HorizontalAlignment="Left" Margin="51,48,0,0" VerticalAlignment="Top"/>
+    <Label Content="Date" HorizontalAlignment="Left" Margin="51,93,0,0" VerticalAlignment="Top"/>
+    <Label Content="From Code" HorizontalAlignment="Left" Margin="51,135,0,0" VerticalAlignment="Top"/>
+    <Label Content="Flying Type" HorizontalAlignment="Left" Margin="51,227,0,0" VerticalAlignment="Top"/>
+    <Label Content="To Code" HorizontalAlignment="Left" Margin="51,182,0,0" VerticalAlignment="Top"/>
+    <DatePicker Name="dtpkOnDay" HorizontalAlignment="Left" Margin="142,93,0,0" VerticalAlignment="Top" Width="169"/>
+    <Label Content="Passengers" HorizontalAlignment="Left" Margin="51,270,0,0" VerticalAlignment="Top"/>
+    <TextBox Name="tbFromCode" HorizontalAlignment="Left" Height="23" Margin="142,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="169"/>
+    <TextBox Name="tbToCode" HorizontalAlignment="Left" Height="23" Margin="142,186,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="169"/>
+    <ComboBox Name="cbbxType" HorizontalAlignment="Left" Margin="142,231,0,0" VerticalAlignment="Top" Width="169">
+      <ComboBoxItem>Domestic</ComboBoxItem>
+      <ComboBoxItem IsSelected="True">International</ComboBoxItem>
+      <ComboBoxItem>Private</ComboBoxItem>
+    </ComboBox>
+    <Slider ValueChanged="slPassengers_ValueChanged" Name="slPassengers" HorizontalAlignment="Left" Margin="142,270,0,0" VerticalAlignment="Top" Width="133" Height="26" Minimum="30" Maximum="300" TickFrequency="20" Value="70"/>
+    <Button Name="btnCancel" Content="Cancel" Click="btnCancel_Click" HorizontalAlignment="Left" Margin="51,328,0,0" VerticalAlignment="Top" Width="75"/>
+    <Button Name="btnSave" Click="btnSave_Click" Content="Save" HorizontalAlignment="Left" Margin="236,328,0,0" VerticalAlignment="Top" Width="75"/>
+    <Label Name="lblId" Content="..." HorizontalAlignment="Left" Margin="142,48,0,0" VerticalAlignment="Top"/>
+    <Label Content="{Binding ElementName=slPassengers, Path=Value}" HorizontalAlignment="Left" Margin="280,270,0,0" VerticalAlignment="Top" Width="31"/>
+
+  </Grid>
+</Window>
