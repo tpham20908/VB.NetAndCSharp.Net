@@ -1,0 +1,160 @@
+Dear Gregory,
+ 
+ [  IMPORTANT INFORMATION FOLLOWS. PLEASE READ & SAVE THIS E-MAIL!]
+ [AS IT CONTAINS SOME VERY INFORMATION REGARDING YOUR ACCOUNT]
+ [PLEASE SAVE THIS AND PRINT THIS OUT. WE WILL NOT OFFER THIS INFORMATION AGAIN]
+ 
+ Welcome to ToonieHosting.ca! Your hosting account is now online!
+ 
+ Hosting Plan Purchased: CPANELMEGA
+ Domain Name: ipd12.ca
+ Type of Hosting Account: CPanel MEGA Hosting (Auto-Recurring Yearly)
+ Your IP Address recorded for fraud protection: 207.162.58.3
+ Your Subscription ID: S-7GM86375F9133691F
+ 
+ This account entitles you to:
+ 20000 MB of disk space and 400 GB per month of data transfer.
+ Any special offers including double disk space and/or bandwidth will be applied to your account within 24 hours.
+ 
+ Your credit card will be automatically charged again by PayPal on: 2019-04-11 [PLEASE SEE BELOW: AUTO REBILLING]
+ Contract terms: Automatic auto-renewing
+ 
+ 
+ Your username for this account is: cp4837
+ Your password for this account is: 3i7h5yos
+ Your Domain Name is: ipd12.ca
+ Your IP Address is: 169.44.80.220
+ FTP Hostname: ftp.ipd12.ca
+ The Primary DNS Server is: ns14.datona-1.com (169.44.80.220)
+ The Secondary DNS Server is: ns15.datona-1.com (169.44.80.224)
+ 
+ ----THINGS YOU MUST DO RIGHT AWAY----
+ 1: Login to your domain registrar (People you purchased your domain name from) and update the DNS nameservers to the ones listed above. If you require assistance in this issue, please contact your domain registrar as they can assist you better then we can.
+ 2: Login to cPanel and change your password from the default to something you can remember.
+ 3: Upload your website to your new hosting environment
+ 4: Login to your control panel (listed below) and add your Email POP3 accounts and aliases you require.
+ 5: Inside your control panel (listed below) update your contact info under preferences INCLUDING your email address.
+ 
+ Once you have changed the name server values then propagation begins. Propagation is when all the name servers around the globe get updated with your new information. This can take from 24-72 hours depending on how frequently Internet Service Providers (ISPs) refresh their name server database and cache. There is absolutely no way we can speed up this process.
+ 
+ ----IP ADDRESS INFORMATION----
+ Due to changes that may occur, please refrain from using the IP address while 
+ configuring such services as your email program, FTP, etc.... 
+ While your DNS is being transferred (propagating), you are best to use the IP address 
+ provided above but for future uses, please use the appropriate hostname.
+ 
+ ----IMPORTANT DNS INFORMATION----
+ Make sure that you change your domains DNS to reflect the DNS servers listed above.
+ If you do not know how to perform the DNS change, you will need to contact the company you registered the domain through for assistance.
+ You may access this account before the DNS has propagated (which can be up to 48 hours) by going to:
+ http://169.44.80.220/~cp4837/
+ To access the cgi-bin, just add 'cgi-bin/' to the above line.
+ Please note that this way of accessing your site is available for a term of 5 days.
+ After which this method of accessing your website may be removed.
+ 
+ ----CPANEL ACCESS----
+ http://169.44.80.220/cpanel  (use this access method until your domain name is active)
+ http://ipd12.ca/cpanel  (use this access method once your domain name is active)
+ user: cp4837
+ password: 3i7h5yos
+  
+ ----FTP INFORMATION----
+ To FTP into your website, please use the following:
+ Hostname: 169.44.80.220 (BEFORE DNS propagation)
+ Hostname: ftp.ipd12.ca Please use this AFTER the dns has propagated.
+ Username: cp4837
+ Password: 3i7h5yos
+ 
+ Path to your html files: /public_html
+ Path to your cgi-bin: /public_html/cgi-bin
+ 
+ ----POP3/SMTP SERVER NAMES----
+ Setup for non-secure connection:
+ POP3 hostname: mail.ipd12.ca
+ SMTP hostname: mail.ipd12.ca
+ 
+ Setup for secure connection:
+ POP3 hostname: srv06.datona-1.com
+ SMTP hostname: srv06.datona-1.com
+ 
+ ----SETTING UP EMAIL POP3, ALIASES or FORWARDING----
+ Please be advised that if you FORWARD an email alias to another ISP like gmail, hotmail, etc.. that you CAN NOT then flag email as SPAM. Since the email was forwarded from our servers, if you flag the email as SPAM, they take our server as the offending network and ban us! This may result in your account being suspended instantly.
+ Due to our server security, we do not allow customers to setup test@ or admin@ as these are amoung the two most checked pop3 account by hackers and we closely monitor and ban the IP address of anyone checking for the existance of these.
+ 
+ 
+ ----MySQL DATABASE----
+ 
+ ----PHPMYADMIN ACCESS----
+ phpMyAdmin is a MySQL database management tool that is available for use from your cPanel. The instructions below will walk you through accessing and logging into your MySQL Account Maintenance web page via cPanel. Once logged into MySQL you can create your database name and user(s) and set access rights for your user(s). Once that is completed, if you want to access your MySQL database using an external tool, your database will be ready.
+ 
+ Let's proceed with creating a database name and creating your user(s).
+ 
+ 1. Access your cPanel (see instructions above)
+ 2. Click on the MySQL icon
+ 3. The MySQL Account Maintenance page will display.
+ 4. Type in the name of your MySQL database and click on the Create Database button.
+ 5. Next, create a new User in the Current Users section.
+    Note1: Make a note of the username and password you choose. You will need them later to configure your 3rd party SQL tool.
+    Note2: All MySQL users are managed inside cPanel itself and not in phpMyAdmin at all. In other words, you won't find a 'Privileges' link in our version of phpMyAdmin.
+ 6. Once your new user has been created, click on the Add User to Database.
+ 7. Next, we have setup the accessing host identification for this new user.
+ 
+ In the Access Hosts section enter in the name of the host to allow access to the MySQL database from an external SQL tool. If you don't plan to use such a tool then you are done with this section.
+ 
+ Hint: if you try to access your database after you have created it but with no user yet, using your 3rd party SQL tool, the connection will fail and you should be able to see the accessing host name string displayed that it wouldn't let you connect from. The host name string will be something like "Access denied for user steve@pool-123-456-789-123.lasnca.dsl-verizon.net".
+ 
+ Now back to your cPanel: In the Access Hosts section, enter in the full string starting from the @ character, like this: @pool-123-456-789-123.lasnca.dsl-verizon.net. (use the actual IP address for your host connection, not the one shown here!). Then click on the Add Host button. This will now allow your third party SQL tool to connect to your MySQL database from your specific PC that generated that access host name.
+ 
+ Note: You can use a wildcard % character in the host string if you want to. If you do not have a static IP address to connect to the internet with, your IP address will always be changing every time you connect to the internet. For this reason you will want to use the wildcard character (%) to eliminate the IP address part in the host string. This will allow you to connect with different IP addresses so you don't have to keep adding news ones to connect with. This is more convenient for you but is less secure. So, in this case you would want to enter your Access Hosts string like this: @pool%
+ That way, you're telling cPanel MySQL to let anyone connect to the database coming from in from a host starting with @pool regardless of what the IP address is.
+ 
+ Again, if you plan to always use phpMyAdmin to access and manage your MySQL database, then you don't have to worry about these host access name strings or the % wildcard. phpMyAdmin is built into cPanel and you can manage your MySQL databases internally using that tool so there is no access host issue to setup or worry about.
+ 
+ 
+ ----PHP PATH----
+ The path to the PHP interpreter is: /usr/local/bin/php
+ 
+ You should put the following line at the very top of your PHP scripts:
+ 
+ #!/usr/local/bin/php
+ 
+ ----MEMBERS AREA----
+ Please take the time to login and check it out. To get to this section, point your browser to:
+ URL: http://members.datona.com/index.php
+ Username: senditaway@hotmail.com
+ Password: JohnIsGreat2000
+ 
+ ----FAQ----
+ We also have an extensive FAQ section on our main website which 9 times out of 10, you will be able to find the answer to your question. If, after reading through the FAQ, you still need assistance, please put in a support ticket.
+ 
+ ----SUPPORT ISSUES----
+ All future correspondence must be directed to your Customer Support Team using the trouble ticket system.
+ To submit a support request, please visit the members section located at http://members.datona.com/index.php.
+ URL: http://members.datona.com/index.php
+ Username: senditaway@hotmail.com
+ Password: JohnIsGreat2000
+ 
+ There is a LOST PASSWORD function if you have forgotten your login information. This will email you your login information to the email account we have on file with you.
+ This page allows you to submit a request using our Web form. Each time you submit a request using this Web form, you will receive a confirmation via e-mail. This confirmation will contain a hyperlink that will allow you to view the status of your incident and update it, if necessary.
+ *PLEASE NOTE*
+ You MUST reply to trouble tickets inside the members area. All replies emailed to us will not be answered due to security issues.
+ 
+ If for some reason your website is not accessable nor is the trouble ticket section, please email support@tooniehosting.ca with your IP address as it may have been banned from our network.
+ 
+ ----AUTO REBILLING----
+ Please be aware of when your account will be auto-renewed. If your credit card is declined, your account will be suspended until such time as funds are available.
+ If your account is suspended, you are required to put in a trouble ticket stating that your credit card has funds on it and that it will return an approved transaction.
+ You will also be required to login to Paypal.com and ensure that the renewal will go through fine.
+ If you wish to cancel your account, this must be done inside the members area under CANCEL DOMAIN. This will cancel your domains hosting within 24 hours of requesting.
+ If you wish to cancel your hosting at the end of it's term, you must do so by cancelling your subscription inside your paypal account.
+ 
+ ----BANDWIDTH OVERAGE----
+ Bandwidth overage (if any) is billed on the 1st of each month. It is the responsability of the client to login to the members area to check for invoices online. If bandwidth overage is billed to your account, this must be paid immediately or your account will be suspended until such time as all fees are paid in full.
+ 
+ 
+ Thank you from all of us at ToonieHosting.ca
+ 
+ 
+ 
+ Sales Department
+ ToonieHosting.ca
